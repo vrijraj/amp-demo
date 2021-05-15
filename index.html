@@ -1,0 +1,75 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  </head>
+  <body>
+    <amp-story standalone title="Your Portfolio"
+    publisher="Vrijraj">
+
+        <amp-story-page id="cover">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/cover.png"
+                    width="720" height="1280"
+                    layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="thirds">
+                <div grid-area="lower-third">
+                    <h1 style="color:white" animate-in="fly-in-top" >Vrijraj Singh</h1>
+                    <p style="color:white" animate-in="fly-in-top" >Google Developer Expert</p>
+                    <p style="color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod ut cumque natus tempora, dolor non iusto obcaecati quia cum architecto sequi assumenda tempore officiis. Consectetur, natus eaque! Voluptatum, ratione?</p>
+                </div>
+                
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="pg1">
+            <amp-story-grid-layer template="vertical" style="background-color: white;">
+                <h2>My Projects</h2>
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore! Accusamus pariatur</p>
+                    <button>See More</button>
+                </div>
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore! Accusamus pariatur</p>
+                    <button>See More</button>
+                </div>
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore! Accusamus pariatur</p>
+                    <button>See More</button>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        
+        <amp-story-page id="pg2">
+            <amp-story-grid-layer template="vertical" style="background-color: white;">
+                <amp-img src="img/tf.png"  width="720" height="500" layout="responsive"></amp-img>
+                <h2>TechFerment</h2>
+                <div>
+                    <p>TechFerment brings the best online courses & tutorials for the latest technologies including Firebase, Vue, HTML, CSS, Bootstrap, JavaScript, PWA, AMP, Chrome and much more.</p>
+                    <button style="margin-top: 5%;">See More</button>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="pg3">
+            <amp-story-grid-layer template="vertical" style="background-color: white;">
+                <h2>Contact</h2>
+                <div>
+                    <p>Your Socail Media Links</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+    </amp-story>
+  </body>
+</html>
